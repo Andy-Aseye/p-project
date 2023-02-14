@@ -1,0 +1,439 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.profile{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2.1vw;
+    margin-left: -5vw;
+    margin-right: -5vw;
+}
+
+
+.profile .row{
+display: flex;
+flex-direction: row;
+}
+
+.inner-container{
+margin: 10rem auto auto auto;
+width: 85vw;
+}
+
+.text-area{
+    width: 44vw;
+    margin-right: 15rem;
+}
+
+
+.text-area h1{
+    font-family: 'Neue Montreal', sans-serif;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: rgb(235, 233, 233);
+    font-size: 2.4315018315vw;;
+    line-height: 120%;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.text-area-p{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-area p{
+    font-size: .9157509158vw;
+    line-height: 140%;
+    margin-top: 6rem;
+    margin-right: 2rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Ppneuemontreal book', sans-serif;
+    color: rgb(246, 243, 243);
+    font-weight: 400;
+}
+
+.top-div{
+    max-width: 96vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    font-family: 'Anton', sans-serif;
+}
+
+.marquee{
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+}
+
+.marquee-div{
+    margin-top: 7rem;
+    height: 50px;
+}
+
+.marquee-div span{
+    font-family: 'Anton', sans-serif;
+    margin-left: 4rem;
+    height: 50px;
+    font-size: 1.8vw;
+}
+
+
+.m-img{
+    width: 2.8vw;
+    margin-right: 18px;
+}
+
+.img-f{
+    max-width: 100%;
+    height: auto;
+}
+
+/* .buttons-section{
+    margin-top: 3rem;
+}
+
+.buttons-section button{
+   padding: 1rem;
+   border-radius: 14px;
+   width: 7rem;
+   margin: auto;
+   background-color: grey;
+} */
+
+
+
+/* RESPONSIVE SCREENS */
+
+@media only screen and (max-width: 500px) {
+    .top-div{
+        max-width: 96vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .profile .row{
+        display: flex;
+        flex-direction: column-reverse;
+        }
+
+        .img-col{
+            margin-top: -13vh;
+        }
+
+        .text-area{
+            width: 90vw;
+            margin-right: 15rem;
+        }
+
+        .text-area h1 {
+            font-family: 'Neue Montreal', sans-serif;
+            width: auto;
+            margin-top: 31px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            padding-right: 0px;
+            padding-left: 0px;
+            color: rgb(235, 233, 233);
+            font-size: 5.431502vw;
+            line-height: 120%;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+        }
+
+        .text-area p {
+            font-size: 2.915751vw;
+            line-height: 140%;
+            margin-top: 3rem;
+            margin-right: 2rem;
+            padding-right: 0px;
+            padding-left: 0px;
+            font-family: 'Ppneuemontreal book', sans-serif;
+            color: rgb(246, 243, 243);
+            font-weight: 400;
+        }
+
+        .marquee-div{
+            margin-top: 5rem;
+            height: 50px;
+        }
+        
+        .marquee-div span{
+            font-family: 'Anton', sans-serif;
+            margin-left: 4rem;
+            height: 50px;
+            font-size: 3.4vw;
+        }
+
+        .m-img {
+            width: 5.8vw;
+            margin-right: 18px;
+        }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+
+    .top-div{
+        max-width: 96vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 12px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .profile .row{
+        display: flex;
+        flex-direction: column-reverse;
+        }
+
+        .img-col{
+            margin-top: -12vh;
+        }
+
+        .text-area{
+            width: 90vw;
+            margin-right: 15rem;
+        }
+
+        .text-area h1 {
+            font-family: 'Neue Montreal', sans-serif;
+            width: auto;
+            margin-top: 31px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            /* 9vw */
+            padding-right: 0px;
+            padding-left: 0px;
+            color: rgb(235, 233, 233);
+            font-size: 3.431502vw;
+            line-height: 120%;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+        }
+
+        .text-area p {
+            font-size: 1.915751vw;
+            line-height: 160%;
+            margin-top: 3rem;
+            margin-right: 2rem;
+            padding-right: 0px;
+            padding-left: 0px;
+            font-family: 'Ppneuemontreal book', sans-serif;
+            color: rgb(246, 243, 243);
+            font-weight: 400;
+        }
+
+        .marquee-div{
+            margin-top: 5vh;
+            height: 50px;
+        }
+        
+        .marquee-div span{
+            font-family: 'Anton', sans-serif;
+            margin-left: 4rem;
+            height: 50px;
+            font-size: 2.4vw;
+        }
+
+        .m-img {
+            width: 3.8vw;
+            margin-right: 18px;
+        }
+
+        .img-col{
+            margin-left: 0px;
+            /* 9vw */
+        }
+        
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+
+    .top-div{
+        max-width: 96vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 14px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .profile .row{
+        display: flex;
+        flex-direction: column-reverse;
+        }
+
+        .img-col{
+            margin-top: -7vh;
+        }
+
+        .text-area{
+            width: 90vw;
+            margin-right: 15rem;
+        }
+
+        .text-area h1 {
+            font-family: 'Neue Montreal', sans-serif;
+            width: auto;
+            margin-top: 31px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            /* 9vw */
+            padding-right: 0px;
+            padding-left: 0px;
+            color: rgb(235, 233, 233);
+            font-size: 3.431502vw;
+            line-height: 140%;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+        }
+
+        .text-area p {
+            font-size: 1.915751vw;
+            line-height: 190%;
+            margin-top: 3rem;
+            margin-right: 2rem;
+            padding-right: 0px;
+            padding-left: 0px;
+            font-family: 'Ppneuemontreal book', sans-serif;
+            color: rgb(246, 243, 243);
+            font-weight: 400;
+        }
+
+        .marquee-div{
+            margin-top: 7vh;
+            height: 50px;
+        }
+        
+        .marquee-div span{
+            font-family: 'Anton', sans-serif;
+            margin-left: 4rem;
+            height: 50px;
+            font-size: 3vw;
+        }
+
+        .m-img {
+            width: 4.5vw;
+            margin-right: 18px;
+        }
+
+        .img-col{
+            margin-left: 0px;
+            /* 9vw */
+        }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1270px) {
+
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+.text-area h1 {
+            font-family: 'Neue Montreal', sans-serif;
+            width: auto;
+            margin-top: 31px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            /* 9vw */
+            padding-right: 0px;
+            padding-left: 0px;
+            color: rgb(235, 233, 233);
+            font-size: 2.431502vw;
+            line-height: 140%;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+        }
+
+        .text-area p {
+            font-size: 1.215751vw;
+            line-height: 190%;
+            margin-top: 3rem;
+            margin-right: 2rem;
+            padding-right: 0px;
+            padding-left: 0px;
+            font-family: 'Ppneuemontreal book', sans-serif;
+            color: rgb(246, 243, 243);
+            font-weight: 400;
+        }
+}
+
+
+@media only screen and (min-width: 1370px) and (max-width: 1440px) {
+
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1919px) {
+
+
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+
+    
+    .top-div{
+        max-width: 96vw;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 24px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    .text-area h1 {
+        font-family: 'Neue Montreal', sans-serif;
+        width: auto;
+        margin-top: 34px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        /* 9vw */
+        padding-right: 0px;
+        padding-left: 0px;
+        color: rgb(235, 233, 233);
+        font-size: 2.531502vw;
+        line-height: 150%;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+    }
+
+    .text-area p {
+        font-size: 1.115751vw;
+        line-height: 190%;
+        margin-top: 3rem;
+        margin-right: 2rem;
+        padding-right: 0px;
+        padding-left: 0px;
+        font-family: 'Ppneuemontreal book', sans-serif;
+        color: rgb(246, 243, 243);
+        font-weight: 400;
+    }
+
+    .marquee-div{
+        margin-top: 9vh;
+        height: 50px;
+    }
+
+}

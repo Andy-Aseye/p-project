@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+.header-container{
+    margin-top: 0px;
+    /* width: 100vw; */
+    height: 100vh;
+    /* background-image: url("https://images.unsplash.com/photo-1627037558426-c2d07beda3af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1275&q=80");
+    background-size: cover;
+    margin-left: -5vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: -5vw;
+    margin-top: -2vh; */
+}
+
+.h-navbar{
+    width: 90vw;
+    height: 9vh;
+    margin-top: 3vh;
+}
+
+.h-navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h-navbar ul li{
+    font-family: "Anton", sans-serif;
+}
+
+
+.title-r{
+    display: flex;
+    flex-direction: row;
+}
+
+.title-r .normal-title{
+    font-size: 7vw;
+    font-family: "aktiv-grotesk ",sans-serif;
+    font-weight: 600;
+}
+
+
+#second-r{
+    margin-left: 5vw;
+}
+
+.b-row{
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30vh;
+}
+
+.video-s{
+    width: 30vw;
+    height: 30vh;
+    /* border: 2px black solid; */
+    position: relative;
+
+}
+
+.web-video{
+    width: 23vw;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.first-box{
+    position: absolute;
+    top: -22vh;
+    left: 9vw;
+    border-radius: 10px;
+    box-shadow: 10px 1px 8px #c4c4c4;
+    /* border: 2px red solid; */
+}
+
+.video-bg{
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.second-box{
+    height: 30vh;
+    width: 23vw;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #b8b7b7;
+}
+
+/* .direction-text{
+    margin-top: 9vh;
+    margin-left: 3vw;
+    font-size: 2vw;
+    font-weight: 500;
+    color: rgb(225, 175, 131);
+    font-family: 'Marck Script', cursive;   ;
+} */
+/* 
+.divider{
+
+} */
+
+
+
+/* Animation for Arrows */
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+    margin-top: 14vh;
+	/* left: 50%; */
+	margin-left: 10vw;
+	/* bottom: 20px; */
+}
+
+.arrows path {
+	stroke: black;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+.link-icons {
+    margin-top: 3vh;
+    /* margin-left: auto; */
+    margin-right: auto;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 1.6vw;
+}
+
+.e-container p{
+    display: block;
+    width: 21vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    line-height: 140%;
+    margin-top: -14vh;
+    font-family: 'Lora', serif;
+}
+
+#title-design h1{
+    color: #e5664c;
+    font-family: 'Marck Script', cursive;
+    font-size: 6vw;
+    margin-right: 2vw;
+    margin-top: 1.8vh;
+}

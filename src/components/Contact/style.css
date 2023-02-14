@@ -1,0 +1,536 @@
+
+.contact-section{
+	background-color: black;
+    color: white;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content: space-between;
+    width: 100vw;
+    height: 80vh;
+	/* padding-top: 14rem; */
+    /* padding-top: 4rem; */
+    margin-left: -5vw;
+    margin-right: -5vw;
+}
+
+.c-details{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
+	width: 47vw;
+	margin-left: 30vw;
+	font-size: 0.78vw;
+	margin-top: 7vh;
+	margin-right: 2rem;
+}
+
+
+.c-details img{
+	width: 1.9vw;
+	margin-right: 7px;
+}
+
+
+.left-contact{
+	width: 45vw;
+	background-image: url('./assets/trial-image.png');
+	object-fit: cover;
+	
+}
+
+
+/* 
+form{
+	width: 50vw;
+	padding: 2vw;
+} */
+
+/* 
+.name, .email, .message {
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid;
+	color: rgb(174, 172, 172);
+	padding: 10px 6px;
+	font-size: 25px;
+	margin-bottom: 40px;
+} */
+
+
+.form-pair{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 2.3vh;
+}
+
+.f-s{
+	margin-bottom: 3vh;
+}
+
+
+/* .form-pair input{
+	width: 20vw;
+} */
+
+.organization{
+	float: right;
+	width: 270px;
+	margin-top: 1vh;
+}
+
+.message{
+	min-width: 100%;
+	max-width: 100%;
+	margin-top: 5vh;
+}
+
+/* form .button{
+	background: none;
+	color: white;
+	border: 1px solid white;
+	padding: 12px 40px;
+	border-radius: 8px;
+	margin-top: 6rem;
+	width: 180px;
+	font-size: 14px;
+	transition: 0.4s linear;
+	}
+
+
+	form .button:hover {
+		background: white;
+		color: black;
+	} */
+
+	.form-group {
+		position: relative;
+	}
+
+	/* .placeholder{
+		position: absolute;
+		top: 20px;
+		left: 8px;
+		font-size: 19px;
+		padding: 0px 5px;
+		color: #667;
+		transition: 0.3s;
+		pointer-events: none;
+	} */
+
+	/* .input:focus + .placeholder{
+		top: -10px;
+		color: #04AA6D;
+		
+
+	}
+
+	.input:focus {
+		border-bottom: 2px green solid;
+	} */
+
+	/* .map-pic{
+		height: 100vh;
+		width: 100%;
+		object-fit: cover;
+	} */
+
+
+
+	/* Second Design  */
+
+	.col-c{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.first-r{
+		background-image: url('./assets/trial-image.png');
+		height: 70vh;
+	}
+
+	.second-r{
+		display: flex;
+		flex-direction: row;
+		margin-top: 5vh;
+	}
+
+	.first-r h1 {
+		font-size: 3.2vw;
+		font-weight: 600;
+		font-family: "Neue Montreal", sans-serif;
+		margin: 46vh 0 2vw 8vw;
+	}
+
+	.white-box{
+		position: absolute;
+		background-color: white;
+		top: 5.8vh;
+		font-family: "Neue Montreal", sans-serif;
+		border-radius: 7px;
+		left: 60vw;
+		height: 84vh; 
+	}
+
+	.white-box p {
+		color: black;
+	}
+
+
+	
+form{
+	width: 28vw;
+	padding: 2vw;
+}
+
+.form-pair{
+	margin-top: 6.5vh;
+}
+
+
+.form-pair input{
+	width: 10vw;
+}
+
+
+.name, .email, .organization, .phone, .message {
+	background: none;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid;
+	color: rgb(174, 172, 172);
+	padding: 1vh 0.6vw;
+	font-size: 1vw;
+	margin-bottom: 4vh;
+
+}
+
+.placeholder{
+	position: absolute;
+	top: 20px;
+	left: 8px;
+	font-size: 1vw;
+	padding: 0px 5px;
+	color: #667;
+	transition: 0.3s;
+	pointer-events: none;
+}
+
+.input:focus + .placeholder{
+	top: -10px;
+	color: black;
+	
+}
+
+.input:focus {
+	border-bottom: 2px black solid;
+}
+
+.name{
+	min-width: 100%;
+	max-width: 100%;
+	margin-top: 1vh;
+}
+
+.organization{
+	min-width: 100%;
+	max-width: 100%;
+	margin-top: 1vh;
+}
+
+.email{
+	min-width: 100%;
+	max-width: 100%;
+	margin-top: 1vh;
+}
+
+.phone{
+	min-width: 100%;
+	max-width: 100%;
+	margin-top: 1vh;
+}
+
+form .button{
+	background: none;
+	color: black;
+	border: 1px solid black;
+	padding: 12px 40px;
+	border-radius: 8px;
+	margin-top: 4vh;
+	width: 180px;
+	font-size: 14px;
+	transition: 0.4s linear;
+	}
+
+
+	form .button:hover {
+		background: black;
+		color: white;
+	}
+
+	.second-r col{
+		margin-right: 4vw;
+	}
+
+	.left-a {
+		margin-left: 4vw;
+		width: 10vw;
+		line-height: 2.5vh;
+	}
+
+	.left-a  h3, li {
+		font-size: 0.8vw;
+	}
+
+
+	.map-link{
+		background-color: rgb(31, 30, 30);
+		color: white;
+		font-size: 0.8vw;
+		font-family: "Neue Montreal", sans-serif;
+		height: 3vh;
+		width: 13vw;
+		border-radius: 7px;
+		margin: 4vh 0 3vw 3vw;
+		padding: 0.8vw;
+	}
+
+	.divider{
+		background-color: white;
+		width: 2.7vw;
+		height: 2px;
+		margin: -0.8vh auto 20px 9vw;
+	}
+
+	.left-a-main{
+		display: flex;
+		flex-direction: row;
+	}
+
+
+
+
+
+
+	/* RESPONSIVE SCREENS */
+@media only screen and (max-width: 500px) {
+
+	.white-box{
+		position: absolute;
+		background-color: white;
+		top: 5.6vh;
+		font-family: "Neue Montreal", sans-serif;
+		border-radius: 7px;
+		left: 7vw;
+		width: 86vw;
+		height: 73vh; 
+	}
+
+	form{
+		width: 76vw;
+		padding: 2vw;
+	}
+
+	.form-pair input{
+		width: 30vw;
+	}
+
+	.name, .email, .organization, .phone, .message {
+		background: none;
+		border: none;
+		outline: none;
+		border-bottom: 2px solid;
+		color: rgb(174, 172, 172);
+		padding: 1vh 0.6vw;
+		font-size: 15px;
+		margin-bottom: 2.3vh;
+	
+	}
+	
+	.placeholder{
+		position: absolute;
+		top: 20px;
+		left: 8px;
+		font-size: 15px;
+		padding: 0px 5px;
+		color: #667;
+		transition: 0.3s;
+		pointer-events: none;
+	}
+	
+
+	.second-r{
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+	}
+
+	.left-a {
+		margin-left: 4vw;
+		width: 10vw;
+		line-height: 1.2vh;
+	}
+
+	.left-a  h3, li {
+		font-size: 1.78vw;
+	}
+
+	.c-details{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		color: white;
+		width: 58vw;
+		margin-left: 30vw;
+		font-size: 1vw;
+		margin-top: 7vh;
+		margin-right: 2rem;
+	}
+	
+	
+	.c-details img{
+		width: 2vw;
+		margin-right: 7px;
+	}
+
+}
+
+
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+	.white-box{
+		position: absolute;
+		background-color: white;
+		top: 9.5vh;
+		font-family: "Neue Montreal", sans-serif;
+		border-radius: 7px;
+		left: 50vw;
+		width: 50vw;
+		height: 70vh; 
+	}
+
+	form{
+		width: 46vw;
+		padding: 2vw;
+	}
+
+	.form-pair input{
+		width: 18vw;
+	}
+
+	.name, .email, .organization, .phone, .message {
+		background: none;
+		border: none;
+		outline: none;
+		border-bottom: 2px solid;
+		color: rgb(174, 172, 172);
+		padding: 1vh 0.6vw;
+		font-size: 15px;
+		margin-bottom: 2.3vh;
+	
+	}
+	
+	.placeholder{
+		position: absolute;
+		top: 20px;
+		left: 8px;
+		font-size: 15px;
+		padding: 0px 5px;
+		color: #667;
+		transition: 0.3s;
+		pointer-events: none;
+	}
+
+	.divider{
+		background-color: white;
+		width: 2.7vw;
+		height: 2px;
+		margin: -0.3vh auto 20px 9vw;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.white-box{
+		position: absolute;
+		background-color: white;
+		top: 8vh;
+		font-family: "Neue Montreal", sans-serif;
+		border-radius: 7px;
+		left: 50vw;
+		width: 50vw;
+		height: 70vh; 
+	}
+
+	form{
+		width: 46vw;
+		padding: 2vw;
+	}
+
+	.form-pair input{
+		width: 18vw;
+	}
+
+	.name, .email, .organization, .phone, .message {
+		background: none;
+		border: none;
+		outline: none;
+		border-bottom: 2px solid;
+		color: rgb(174, 172, 172);
+		padding: 1vh 0.6vw;
+		font-size: 15px;
+		margin-bottom: 2.3vh;
+	
+	}
+	
+	.placeholder{
+		position: absolute;
+		top: 20px;
+		left: 8px;
+		font-size: 15px;
+		padding: 0px 5px;
+		color: #667;
+		transition: 0.3s;
+		pointer-events: none;
+	}
+
+	.divider{
+		background-color: white;
+		width: 2.7vw;
+		height: 2px;
+		margin: -0.3vh auto 20px 9vw;
+	}
+
+}
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1440px) {
+
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2560px) {
+	.white-box{
+		position: absolute;
+		background-color: white;
+		top: 0.8vh;
+		font-family: "Neue Montreal", sans-serif;
+		border-radius: 7px;
+		left: 60vw;
+		height: 83vh; 
+	}
+}
+

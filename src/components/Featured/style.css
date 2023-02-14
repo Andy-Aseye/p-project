@@ -1,0 +1,109 @@
+
+h1 {
+    font-size: 30px;
+}
+
+.line{
+    background: rgba(24, 23, 23, 0.773);
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.r-line{
+    background: black;
+    display: block;
+    height: 1px;
+    position: relative;
+    width: 113%;
+    margin-bottom: 2rem;
+}
+
+.s-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.left{
+    display: block;
+    width: 30vw;
+    font-family: "Neue Montreal", sans-serif;
+}
+
+.left h1 {
+    transform: translate3d(0px, 0px, 0px);
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    font-size: 2.9304029304vw;
+    font-family: "Neue Montreal", sans-serif;
+    max-width: 550.025px;
+    width: 550.025px;
+    max-height: 123.775px;
+    height: 123.775px;
+    padding: 0px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15.1098901099vw;
+    transition: opacity .76s ease-out;
+    will-change: opacity;
+    /* border: 3px red solid; */
+}
+
+.right h3 {
+    display: block;
+    width: 25vw;
+    font-size: 1.8315018315vw;
+    font-weight: 300;
+    line-height: 110%;
+    font-family: "Neue Montreal", sans-serif;
+}
+
+.right p {
+    display: block;
+    width: 27vw;
+    font-size: .8157509158vw;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 150%;
+}
+
+.m-row{
+    display: none;
+}
+
+
+/* RESPONSIVE SCREENS */
+@media only screen and (max-width: 500px) {
+
+    .s-row{
+        display: none;
+    }
+
+    .m-row{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .m-col {
+        margin-top: 3.5vh;
+    }
+
+    .m-col h3 {
+        font-size: 5.7315018315vw;
+        margin-bottom: 2vh;
+        font-weight: 500;
+    }
+
+    .m-col p {
+        font-size: 4.1315018315vw;
+        line-height: 140%;
+    }
+}
