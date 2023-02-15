@@ -114,9 +114,10 @@ function Modal () {
   return(
     <div className="modal-container"> 
     {/* <div className="modal-inner-container"> */}
+    {/* style={{backgroundImage: `url(${src})`, objectFit: "cover"}} */}
     <div className="modal-top">
-        <div className="modal-img-container" style={{backgroundImage: `url(${src})`, objectFit: "cover"}}>
-
+        <div className="modal-img-container" >
+          <img src={src} style={{height: "100%", width: "100%", borderRadius: "7px"}}/>
         </div>
         <div className="m-project-h">
 
