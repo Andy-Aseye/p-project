@@ -113,7 +113,8 @@ function Modal () {
   //       </div>
   return(
     <div className="modal-container"> 
-      <div className="modal-top">
+    {/* <div className="modal-inner-container"> */}
+    <div className="modal-top">
         <div className="modal-img-container" style={{backgroundImage: `url(${src})`, objectFit: "cover"}}>
 
         </div>
@@ -164,7 +165,7 @@ function Modal () {
           </div>
         </div>
      </div>
-
+    {/* </div> */}
     </div>
   )
 }
@@ -183,9 +184,9 @@ function Modal () {
       <div></div>
       <div className={"gallery-item"} onClick={handleToggle}>
         <div className="gallery-item-info">
-          <h1 className="gallery-info-title">{title}</h1>
+          {!visible && <div><h1 className="gallery-info-title">{title}</h1>
           <h2 className="gallery-info-subtitle">{subtitle}</h2>
-          <p className="gallery-info-category">{category}</p>
+          <p className="gallery-info-category">{category}</p></div>}
           {visible && <Modal />}
         </div>
         <div
