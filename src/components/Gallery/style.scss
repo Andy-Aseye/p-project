@@ -80,36 +80,99 @@
       z-index: 2;
       width: 70vw;
       margin: auto;
+      border-radius: 4px;
       height: 80vh;
+      display: flex;
+      flex-direction: column;
+      padding: 1vw;
       // transition-delay: 2s;
     }
 
-    .modal-row{
+    .modal-img-container{
+      // background-color: rgb(189, 24, 24);
+      width: 50%;
+      border-radius: 7px;
+      height: 100%;
+    }
+
+    .modal-top{
+      width: 100%;
+      height: 50%;
+      padding-bottom: 3vh;
+      border-bottom: 1px solid black;
+    }
+
+    .modal-bottom{
+      padding-top: 4.5vh;
+      width: 100%;
+      height: 50%;
       display: flex;
       flex-direction: row;
     }
-    .modal-left{
-      width: 50%;
+
+    .spec-container{
+      width: 30%;
     }
 
-    .m-col-right{
-      width: 50%;
-      background-color: white;
-      color: black;
+    // .spec-container h3{
+    //   margin-top: 1.5vh;
+    // }
+
+    .project-features{
+      width: 70%;
     }
 
     .m-content{
       display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 1.5vh;
+      color: rgb(120, 118, 118);
     }
-    .modal-img{
-      max-width: 86.5%;
-      margin-left: 0%;
-      margin-right: auto;
-      height: 100%;
-      border-radius: 7px;
-      // border: 1px solid black;
-      object-fit: cover;
+
+    .m-content p{
+      display: block;
+      width: 65%;
+      font-size: 1vw;
+      line-height: 120%;
     }
+
+    .m-r-line{
+      background: rgb(63, 63, 63);
+      display: block;
+      height: 1px;
+      position: relative;
+      width: 100%;
+      margin-bottom: 2rem;
+  }
+  
+    // .modal-row{
+    //   display: flex;
+    //   flex-direction: row;
+    // }
+    // .modal-left{
+    //   width: 50%;
+    //   height: 70%;
+    // }
+
+    // .m-col-right{
+    //   width: 50%;
+    //   background-color: white;
+    //   color: black;
+    // }
+
+    // .m-content{
+    //   display: flex;
+    // }
+    // .modal-img{
+    //   max-width: 86.5%;
+    //   margin-left: 0%;
+    //   margin-right: auto;
+    //   height: 100%;
+    //   border-radius: 7px;
+    //   // border: 1px solid black;
+    //   object-fit: cover;
+    // }
 
     .row-top{
       height: 30%;

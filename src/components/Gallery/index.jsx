@@ -71,8 +71,10 @@ function GalleryItem({
   title,
   modalImg,
   // category,
+  demo,
+  stack,
   role,
-  // overview,
+  overview,
   updateActiveImage,
   index,
 }) {
@@ -95,33 +97,72 @@ function GalleryItem({
 
 
 function Modal () {
+  // style={{backgroundImage: `url(${src})`, objectFit: "cover"}}
+
+  // <div className="m-content">
+  //       <h1>Type</h1>
+  //       </div>
+  //       <div className="m-content">
+  //       <h1>Overview</h1>
+  //       </div>
+  //       <div className="m-content">
+  //       <h1>Stack</h1>
+  //       </div>
+  //       <div className="m-content">
+  //       <h1>Link</h1>
+  //       </div>
   return(
-    <div className="modal-container">
-     <div className="modal-row">  
-     <div className="col-left" style={{backgroundImage: `url(${src})`, objectFit: "cover"}}>
-      {/* <img src={modalImg} className="modal-img"/> */}
-     </div>
-     <div className="col-right">
-      <div className="row-top"></div>
-      <div className="row-bottom">
-        <div className="m-content">
-          <h1>Role</h1>
-          <p>{role}</p>
+    <div className="modal-container"> 
+      <div className="modal-top">
+        <div className="modal-img-container" style={{backgroundImage: `url(${src})`, objectFit: "cover"}}>
+
         </div>
-        <div className="m-content">
-        <h1>Type</h1>
-        </div>
-        <div className="m-content">
-        <h1>Overview</h1>
-        </div>
-        <div className="m-content">
-        <h1>Stack</h1>
-        </div>
-        <div className="m-content">
-        <h1>Link</h1>
+        <div className="m-project-h">
+
         </div>
       </div>
-     </div>
+      <div className="modal-bottom" style={{height: "50%"}}>
+        <div className="spec-container">
+        <h3>Specifications</h3>
+        </div>
+        <div className="project-features">
+          <div className="m-right">
+          {/* <div className="m-r-line"></div> */}
+          <div className="m-content">
+            <h3>Type</h3>
+            <p>{subtitle}</p>
+          </div>
+          </div>
+          <div className="m-right">
+          <div className="m-r-line"></div>
+          <div className="m-content">
+            <h3>Overview</h3>
+            <p>{overview}</p>
+          </div>
+          </div>
+          <div className="m-right">
+          <div className="m-r-line"></div>
+          <div className="m-content">
+            <h3>Stack</h3>
+            <div style={{width: "65%", display: "flex"}}>{stack.map(stackItem => <p>{stackItem}</p>)}</div>
+          </div>
+          </div>
+          <div className="m-right">
+          <div className="m-r-line"></div>
+          <div className="m-content">
+            <h3>Role</h3>
+            <p>{role}</p>
+          </div>
+          </div>
+          <div className="m-right">
+          <div className="m-r-line"></div>
+          <div className="m-content">
+            <h3>Link</h3>
+            <p>{demo}</p>
+          </div>
+          <div className="m-r-line"></div>
+          </div>
+        </div>
      </div>
 
     </div>
