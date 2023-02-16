@@ -203,14 +203,14 @@ form{
 	border-bottom: 2px solid;
 	color: rgb(174, 172, 172);
 	padding: 1vh 0.6vw;
-	font-size: 1vw;
+	font-size: 0.9vw;
 	margin-bottom: 4vh;
 
 }
 
 .placeholder{
 	position: absolute;
-	top: 20px;
+	top: -10px;
 	left: 8px;
 	font-size: 1vw;
 	padding: 0px 5px;
@@ -219,11 +219,19 @@ form{
 	pointer-events: none;
 }
 
-.input:focus + .placeholder{
-	top: -10px;
+/* input:valid ~ .placeholder {
+
+} */
+
+.input:focus + .placeholder {
+	top: -20px;
 	color: black;
-	
 }
+
+/* .input:valid + .placeholder {
+	margin-bottom: 10px;
+	color: black;
+} */
 
 .input:focus {
 	border-bottom: 2px black solid;
