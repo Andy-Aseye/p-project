@@ -50,7 +50,7 @@ export default function Footer() {
         id="location-text"
         ref={ref}
       >
-        Rio de Janeiro
+        Accra Ghana
       </h1>
     </section>
   );
