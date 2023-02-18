@@ -10,7 +10,7 @@ export default function Featured() {
            <div className="s-row" >
               <div className="col-12 col-md-4">
                 <div className="left" data-scroll-sticky data-scroll data-scroll-target="#stick">
-                  <h1>CORE <br />VALUES</h1>
+                  <h1>Work <br />Standards</h1>
                 </div>
               </div>
               <div className="col-12 col-md-8">

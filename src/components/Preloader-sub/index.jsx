@@ -1,13 +1,23 @@
 import React from "react";
-import './style.css'
+import './style.css';
+// import {Power3, gsap } from "gsap";
 
 
 export default function preloaderPage () {  
 
+	// const tl = gsap.timeline({});
+
+	// tl.from(".object-animation", {
+	// 	// ease: Power3.easeInOut,
+	// 	opacity: 0,
+	// 	duration: 1.2,
+	// 	// delay: 4,
+	// })
+
 return (
-    <div>
+    <div id="preloader">
         <div className="row-pair" id="top-row">
-            <div className="col">Left</div>
+            <div className="col" id="left">Left</div>
             <div className="col">Right</div>
         </div>
         <div className="row">

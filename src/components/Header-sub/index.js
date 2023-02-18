@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import gsap from "gsap";
+import {gsap, Power2, Power3} from "gsap";
 import './style.css';
 import firstVid from './assets/first.mp4';
 import secondVid from './assets/second.mp4';
@@ -10,6 +10,50 @@ import Gmail from './assets/gmail-logo.png';
 
 export default function Header() {
 
+    useEffect(()  => {
+        const tl = gsap.timeline({})
+        tl.from(".h-navbar", {
+            duration: 2,
+            opacity: 0,
+            ease: Power3.easeInOut
+        })
+        tl.from(".video-s", {
+            x: 220,
+            duration: 1.7,
+            ease: Power3.easeInOut,
+            opacity: 0,
+        }, 1)
+        tl.from(".b-row-l", {
+            x: -220,
+            duration: 1.7,
+            opacity: 0,
+            ease: Power3.easeInOut
+        }, "<")
+        tl.from(".normal-title", {
+            duration: 1.7,
+            y: 100,
+            opacity: 0,
+            ease: Power2.easeInOut,
+        })
+        tl.from("#title-design", {
+            duration: .9,
+            // x: 200,
+            // delay: 0,
+            opacity: 0,
+            ease: Power2.easeInOut,
+        })
+        tl.from(".arrows", {
+            duration: .4,
+            opacity: 0,
+            ease: Power2.easeInOut,
+        })
+
+
+
+
+
+    }, [])
+   
 
     return (
         <div className="header-container" data-scroll-section>
@@ -20,7 +64,7 @@ export default function Header() {
                     <li>Based in Accra, Ghana</li>
                 </ul>
             </div>
-            <div className="title-r">
+            <div className="title-r" id="creative">
                 <h1 className="normal-title">Creative</h1>
             </div>
             <div className="title-r" id="second-r">
@@ -32,7 +76,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="b-row">
-                <div>
+                <div className="b-row-l">
                     {/* <div><div className="divider"></div><h3>Built with React</h3> <div className="divider"></div></div> */}
                     {/* <img src={j} alt="img-icon" /> */}
                     {/* <h3 className="direction-text">Scroll down</h3> */}
