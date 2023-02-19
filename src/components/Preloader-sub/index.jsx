@@ -16,23 +16,23 @@ export default function PreloaderPage () {
 	duration: 1.8,
 	})
 	tl.from("#left", {
-		x: 600, 
-		y: 300,
+		x: 520, 
+		y: 260,
 		duration: 2.2,
 	})
 	tl.from("#right", {
-		x: -600, 
-		y: 300,
+		x: -520, 
+		y: 260,
 		duration: 2.2,
 	}, "<")
 	tl.from("#b-left", {
-		x: 600, 
-		y: -300,
+		x: 520, 
+		y: -260,
 		duration: 2.2,
 	}, "<")
 	tl.from("#b-right", {
-		x: -600, 
-		y: -300,
+		// x: -600, 
+		// y: -300,
 		duration: 2.2,
 	}, "<")
 	tl.from(".object-animation", {
@@ -47,6 +47,30 @@ export default function PreloaderPage () {
 		duration: 1,
 		delay: 2,
 	})
+	tl.to("#b-right", {
+		ease: Power3.easeInOut,
+		opacity: 0,
+		duration: 1,
+		delay: 2,
+	}, "<")
+	tl.to("#b-left", {
+		ease: Power3.easeInOut,
+		opacity: 0,
+		duration: 1,
+		delay: 2,
+	}, "<")
+	tl.to("#left",{
+		ease: Power3.easeInOut,
+		opacity: 0,
+		duration: 1,
+		delay: 2,
+	}, "<")
+	tl.to("#right",{
+		ease: Power3.easeInOut,
+		opacity: 0,
+		duration: 1,
+		delay: 2,
+	}, "<")
 	}, [])
 
 	
@@ -56,8 +80,8 @@ export default function PreloaderPage () {
 return (
     <div id="preloader">
         <div className="row-pair" id="top-row">
-            <div className="col text" id="left">Left</div>
-            <div className="col text" id="right">Right</div>
+            <div className="col text" id="left" style={{marginLeft: "3vw"}}>Portfolio</div>
+            <div className="col text" id="right" style={{marginRight: "3vw"}}>Developer</div>
         </div>
         <div className="row">
             <div className="object-animation">
@@ -254,8 +278,8 @@ return (
             </div>
         </div>
         <div className="row-pair" id="bottom-row">
-            <div className="col text" id="b-left">Copyright@ 2023</div>
-            <div className="col text" id="b-right">Bottom-Right</div>
+            <div className="col text" id="b-left" style={{marginLeft: "3vw"}}>Copyright@ 2023</div>
+            {/* <div className="col text" id="b-right">{Date()}</div> */}
         </div>
     </div>
 )
