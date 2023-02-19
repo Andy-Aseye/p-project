@@ -42,8 +42,7 @@ export default function Contact() {
 	<div className="col-c">
 		<div className="row first-r">
 			<div className="map-link">
-				<p>look at google maps <div className="divider"></div></p>
-				
+				<p>look at google maps <div className="divider"></div></p>		
 			</div>
 			<h1>Contact Us</h1>
 		</div>

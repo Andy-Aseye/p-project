@@ -86,7 +86,7 @@ export default function Profile() {
 
 
 
-{/* <div className="buttons-section">
+/* <div className="buttons-section">
 <div className="row first-row">
     <button>HTML</button>
     <button>CSS</button>
@@ -105,7 +105,7 @@ export default function Profile() {
     <button>LT Browser</button>
     <button>Mongoose Schema</button>
 </div>
-</div> */}
+</div> */
 
 
 

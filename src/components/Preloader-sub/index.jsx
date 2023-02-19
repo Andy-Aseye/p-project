@@ -1,24 +1,63 @@
 import React from "react";
+import { useEffect } from "react";
 import './style.css';
-// import {Power3, gsap } from "gsap";
+import {Power2, Power3, gsap } from "gsap";
 
 
-export default function preloaderPage () {  
+export default function PreloaderPage () {  
 
-	// const tl = gsap.timeline({});
+	const tl = gsap.timeline({});
 
-	// tl.from(".object-animation", {
-	// 	// ease: Power3.easeInOut,
-	// 	opacity: 0,
-	// 	duration: 1.2,
-	// 	// delay: 4,
-	// })
+	useEffect(()=> {
+		tl.from(".text", {
+	ease: Power2.easeInOut,
+	opacity: 0,
+	// y: 100,
+	duration: 1.8,
+	})
+	tl.from("#left", {
+		x: 600, 
+		y: 300,
+		duration: 2.2,
+	})
+	tl.from("#right", {
+		x: -600, 
+		y: 300,
+		duration: 2.2,
+	}, "<")
+	tl.from("#b-left", {
+		x: 600, 
+		y: -300,
+		duration: 2.2,
+	}, "<")
+	tl.from("#b-right", {
+		x: -600, 
+		y: -300,
+		duration: 2.2,
+	}, "<")
+	tl.from(".object-animation", {
+		ease: Power3.easeInOut,
+		opacity: 0,
+		duration: 1,
+		// delay: .8,
+	})
+	tl.to(".object-animation", {
+		ease: Power3.easeInOut,
+		opacity: 0,
+		duration: 1,
+		delay: 2,
+	})
+	}, [])
+
+	
+
+	
 
 return (
     <div id="preloader">
         <div className="row-pair" id="top-row">
-            <div className="col" id="left">Left</div>
-            <div className="col">Right</div>
+            <div className="col text" id="left">Left</div>
+            <div className="col text" id="right">Right</div>
         </div>
         <div className="row">
             <div className="object-animation">
@@ -215,8 +254,8 @@ return (
             </div>
         </div>
         <div className="row-pair" id="bottom-row">
-            <div className="col">Bottom-Left</div>
-            <div className="col">Bottom-Right</div>
+            <div className="col text" id="b-left">Copyright@ 2023</div>
+            <div className="col text" id="b-right">Bottom-Right</div>
         </div>
     </div>
 )
