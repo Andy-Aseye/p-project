@@ -51,13 +51,8 @@ export default function PreloaderPage () {
 		ease: Power2.easeInOut,
 		opacity: 0,
 		duration: 1,
+		y: -10,
 	}, "<")
-	tl.to("#preloader", {
-            duration: 1,
-			height: "0vh",
-	})
-
-
 	}, [])
 
 	
