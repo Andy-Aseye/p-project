@@ -30,7 +30,7 @@ export default function Header() {
             ease: Power3.easeInOut
         }, "<")
         tl.from(".normal-title", {
-            duration: 1.3,
+            duration: 1.1,
             y: 100,
             opacity: 0,
             ease: Power2.easeInOut,

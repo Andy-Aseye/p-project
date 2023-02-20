@@ -12,6 +12,7 @@ import img7 from './assets/node.png';
 import img8 from './assets/html.png';
 import img9 from './assets/Lt.png';
 import img10 from './assets/react.png';
+import profile from './assets/profile-img.png';
 
 
 
@@ -73,7 +74,7 @@ export default function Profile() {
             </div>
          </div>
          <div className="col img-col">
-            <img src="https://images.unsplash.com/photo-1540331547168-8b63109225b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNyZWF0aXZlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" className="img-f"/>
+            <img src={profile} className="img-f"/>
         </div>
         </div>
        

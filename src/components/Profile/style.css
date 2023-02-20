@@ -98,6 +98,7 @@ width: 85vw;
 .img-f{
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 /* .buttons-section{

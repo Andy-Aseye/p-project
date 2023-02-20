@@ -43,14 +43,14 @@ export default function Footer() {
 
   return (
     <section className="footer" data-scroll-section>
-      <SectionHeader title="Made in" />
+      <SectionHeader title="Made with" />
 
       <h1
         className={cn("location", { "is-reveal": reveal })}
         id="location-text"
         ref={ref}
       >
-        Accra Ghana
+        React GSAP
       </h1>
     </section>
   );
