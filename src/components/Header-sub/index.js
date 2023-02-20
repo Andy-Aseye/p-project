@@ -36,7 +36,7 @@ export default function Header() {
             ease: Power2.easeInOut,
         })
         tl.from("#title-design", {
-            duration: .8,
+            duration: .7,
             // x: 200,
             // delay: 0,
             opacity: 0,
@@ -47,7 +47,7 @@ export default function Header() {
             opacity: 0,
             ease: Power2.easeInOut,
         })
-
+        
 
 
 

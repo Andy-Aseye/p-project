@@ -96,7 +96,7 @@ export default function Contact() {
 			</div>
 			<div className="col">
 			<div className="c-details">
- 			 <div><img src={Whatsapp} alt="whatsapp"/>WhatApp (+233) 55 863 0441</div>
+ 			 <div><img src={Whatsapp} alt="whatsapp"/>(+233) 55 863 0441</div>
   			<div><img src={Github} alt="github"/> Github Andy-Aseye</div>
   			<div><img src={LinkedIn} alt="linkedin"/>LinkedIn</div>
   			<div><img src={Gmail} alt="gmail"/>andyaseye@gmail.com</div>

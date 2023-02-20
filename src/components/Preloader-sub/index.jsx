@@ -47,30 +47,17 @@ export default function PreloaderPage () {
 		duration: 1,
 		delay: 2,
 	})
-	tl.to("#b-right", {
-		ease: Power3.easeInOut,
+	tl.to(".text", {
+		ease: Power2.easeInOut,
 		opacity: 0,
 		duration: 1,
-		delay: 2,
 	}, "<")
-	tl.to("#b-left", {
-		ease: Power3.easeInOut,
-		opacity: 0,
-		duration: 1,
-		delay: 2,
-	}, "<")
-	tl.to("#left",{
-		ease: Power3.easeInOut,
-		opacity: 0,
-		duration: 1,
-		delay: 2,
-	}, "<")
-	tl.to("#right",{
-		ease: Power3.easeInOut,
-		opacity: 0,
-		duration: 1,
-		delay: 2,
-	}, "<")
+	tl.to("#preloader", {
+            duration: 1,
+			height: "0vh",
+	})
+
+
 	}, [])
 
 	
@@ -278,7 +265,7 @@ return (
             </div>
         </div>
         <div className="row-pair" id="bottom-row">
-            <div className="col text" id="b-left" style={{marginLeft: "3vw"}}>Copyright@ 2023</div>
+            <div className="col text" id="b-left" style={{marginLeft: "3vw"}}>© 2023</div>
             {/* <div className="col text" id="b-right">{Date()}</div> */}
         </div>
     </div>
