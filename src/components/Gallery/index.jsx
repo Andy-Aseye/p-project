@@ -7,6 +7,7 @@ import Fitnuts from './assets/fitnuts.png';
 import Pepe from './assets/pepe.png';
 import PepeM from './assets/pepe-mobile.png';
 import FitnutsM from './assets/fitnuts-mobile.png';
+import Aigenix from './assets/AIgenix.png';
 import cn from "classnames";
 
 import "./style.scss";
@@ -53,8 +54,7 @@ const images = [
     demo: "Available for live demo"
   },
   {
-    src:
-      "https://images.unsplash.com/photo-1611145367651-6303b46e4040?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2006&q=100",
+    src: Aigenix,
     title: "AIgenix",
     subtitle: "AI generator",
     category: "Arts and creativity",
