@@ -31,8 +31,8 @@ export default function PreloaderPage () {
 		duration: 2.2,
 	}, "<")
 	tl.from("#b-right", {
-		// x: -600, 
-		// y: -300,
+		x: -520, 
+		y: -260,
 		duration: 2.2,
 	}, "<")
 	tl.from(".object-animation", {
@@ -261,7 +261,7 @@ return (
         </div>
         <div className="row-pair" id="bottom-row">
             <div className="col text" id="b-left" style={{marginLeft: "3vw"}}>© 2023</div>
-            {/* <div className="col text" id="b-right">{Date()}</div> */}
+            <div className="col text" id="b-right" style={{marginRight: "3vw"}}>{new Date().toLocaleTimeString()}</div>
         </div>
     </div>
 )
