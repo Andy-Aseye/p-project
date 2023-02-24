@@ -83,9 +83,9 @@ export default function Header() {
                     <div className="e-container">
                         <p>Building web-apps and websites from scratch in an optimum way.</p>
                         <div className="link-icons">
-                            <img src={LinkedIn} alt="linkedin-img" className="icon"/>
-                            <img src={Github} alt="github-img" className="icon"/>
-                            <img src={Gmail} alt="gmail-img" className="icon"/>
+                           <a href="linkedin.com/in/andy-sedzifa-a1794619b/" target="_blank"><img src={LinkedIn} alt="linkedin-img" className="icon"/></a> 
+                            <a href="https://github.com/Andy-Aseye" target="_blank"><img src={Github} alt="github-img" className="icon"/></a>
+                            <a href=""><img src={Gmail} alt="gmail-img" className="icon"/></a>
                         </div>
                     </div>
                     <svg class="arrows">
