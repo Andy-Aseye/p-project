@@ -115,12 +115,12 @@ function Modal () {
     <div className="modal-container"> 
     {/* <div className="modal-inner-container"> */}
     {/* style={{backgroundImage: `url(${src})`, objectFit: "cover"}} */}
-    <div className="modal-top">
+    <div className="modal-top" style={{display: "flex", flexDirection: "row"}}>
         <div className="modal-img-container" >
           <img src={src} style={{height: "100%", width: "100%", borderRadius: "7px"}}/>
         </div>
-        <div className="m-project-h">
-
+        <div className="m-project-h" style={{marginLeft: "auto", marginRight: "auto", marginTop: "2%"}}>
+          <h1>{title}</h1>
         </div>
       </div>
       <div className="modal-bottom" style={{height: "50%"}}>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+
 .gallery-wrap {
   background: linear-gradient(45deg, rgb(10, 10, 10), rgb(43, 41, 41));
   margin-left: -5vw;
@@ -161,3 +164,9 @@
   transition: all 1.5s cubic-bezier(0.77, 0, 0.175, 1);
   filter: grayscale(100%) sepia(20%) brightness(80%);
 }/*# sourceMappingURL=style.css.map */
+
+
+.m-project-h{
+  font-family: 'Gloock', serif;
+  font-weight: 600;
+}
