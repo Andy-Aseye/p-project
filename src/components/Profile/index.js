@@ -1,7 +1,7 @@
 import React  from "react";
 import "./style.css";
 import { gsap } from "gsap";
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+// import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import img1 from './assets/bootstrap.png';
 import img2 from './assets/css.png';
 import img3 from './assets/express.png';
@@ -23,21 +23,21 @@ import profile from './assets/profile-img.png';
 
 export default function Profile() {
  
-  gsap.registerPlugin(ScrollTrigger);
+  // gsap.registerPlugin(ScrollTrigger);
 
 
-  const tl = gsap.timeline({
-    scrollTrigger: {
-        trigger: ".img-f",
-        start: "17%",
-        end: "70%",
-        scrub: 1,
-        markers: true,
-    }
-})
+//   const tl = gsap.timeline({
+//     scrollTrigger: {
+//         trigger: ".img-f",
+//         start: "17%",
+//         end: "70%",
+//         scrub: 1,
+//         markers: true,
+//     }
+// })
 
 
-tl.to(".profile", {width: "94vw", borderRadius: 19, duration: 1.5});
+// tl.to(".profile", {width: "94vw", borderRadius: 19, duration: 1.5});
 
 
   return (
