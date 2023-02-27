@@ -194,6 +194,25 @@
 /* This is for responsive screens */
 
 @media only screen and (max-width: 500px) {
-
+   .b-row{
+        /* border: 2px red solid; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* margin-top: 30vh; */
+    }
+    .title-r .normal-title{
+        font-size: 10vw;
+        font-family: "aktiv-grotesk ",sans-serif;
+        font-weight: 600;
+    }
+    
+#title-design h1{
+    color: #e5664c;
+    font-family: 'Marck Script', cursive;
+    font-size: 8vw;
+    margin-right: 2vw;
+    margin-top: 1.8vh;
+}
 
 }
