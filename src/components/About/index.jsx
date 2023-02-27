@@ -6,6 +6,7 @@ import SectionHeader from "../SectionHeader";
 import gsap from "gsap";
 import SplitText from "../../utils/Split3.min";
 import useOnScreen from "../../hooks/useOnScreen";
+// import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import "./style.scss";
 

@@ -189,3 +189,11 @@
     margin-right: 2vw;
     margin-top: 1.8vh;
 }
+
+
+/* This is for responsive screens */
+
+@media only screen and (max-width: 500px) {
+
+
+}

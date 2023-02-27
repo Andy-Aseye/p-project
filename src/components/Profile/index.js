@@ -1,4 +1,4 @@
-import React from "react";
+import React  from "react";
 import "./style.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -19,25 +19,25 @@ import profile from './assets/profile-img.png';
 
 
 
+
+
 export default function Profile() {
  
-  // gsap.registerPlugin(ScrollTrigger);
-
-  
+  gsap.registerPlugin(ScrollTrigger);
 
 
-//   const tl = gsap.timeline({
-//     scrollTrigger: {
-//         trigger: ".img-f",
-//         start: "top 70%",
-//         end: "top 19%",
-//         scrub: 1,
-//         // markers: true,
-//     }
-// })
+  const tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".img-f",
+        start: "17%",
+        end: "70%",
+        scrub: 1,
+        markers: true,
+    }
+})
 
 
-// tl.to(".profile", {width: "94vw", borderRadius: 19, duration: 1.5});
+tl.to(".profile", {width: "94vw", borderRadius: 19, duration: 1.5});
 
 
   return (
