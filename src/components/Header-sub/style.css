@@ -197,7 +197,7 @@
    .b-row{
         /* border: 2px red solid; */
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         /* justify-content: space-between; */
         /* margin-top: 30vh; */
     }
@@ -214,5 +214,18 @@
     margin-right: 2vw;
     margin-top: 1.8vh;
 }
+
+.video-s{
+    width: 40vw;
+    height: 30vh;
+    /* border: 2px black solid; */
+    position: relative;
+
+}
+
+.e-container{
+    display: none;
+}
+
 
 }
