@@ -32,6 +32,16 @@ const images = [
     demo: "Available for live demo"
   },
   {
+    src: Aigenix,
+    title: "AIgenix",
+    subtitle: "AI generator",
+    category: "Arts and creativity",
+    role: "Frontend and Backend",
+    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
+    stack: ["React.JS", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+    demo: "https://aigenix.netlify.app/"
+  },
+  {
     src: Adrenalin,
     title: "Adrenaline Sports",
     subtitle: "Sports Management",
@@ -52,16 +62,6 @@ const images = [
     overview: "Pepe's Game is an online casino game with modern functionalities and capabilities",
     stack: ["React.JS", "Greensock 3", "Css", "Bootstrap"],
     demo: "Available for live demo"
-  },
-  {
-    src: Aigenix,
-    title: "AIgenix",
-    subtitle: "AI generator",
-    category: "Arts and creativity",
-    role: "Frontend and Backend",
-    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
-    stack: ["React.JS", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
-    demo: "https://aigenix.netlify.app/"
   },
 ];
 function GalleryItem({
