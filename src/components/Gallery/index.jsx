@@ -61,7 +61,7 @@ const images = [
     role: "Frontend and Backend",
     overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
     stack: ["React.JS", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
-    demo: ""
+    demo: "https://aigenix.netlify.app/"
   },
 ];
 function GalleryItem({
@@ -160,7 +160,7 @@ function Modal () {
           <div className="m-r-line"></div>
           <div className="m-content">
             <h3>Link</h3>
-            <p>{demo}</p>
+            <p><a href={demo} target="_blank">{demo}</a></p>
           </div>
           <div className="m-r-line"></div>
           </div>
