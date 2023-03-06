@@ -282,5 +282,22 @@
         position: relative;
     }
 
+    .first-box{
+        position: absolute;
+        top: -22vh;
+        left: 9vw;
+        border-radius: 10px;
+        width: 40vw;
+        box-shadow: 10px 1px 8px #c4c4c4;
+        /* border: 2px red solid; */
+    }
+    
+    .second-box{
+        height: 30vh;
+        width: 40vw;
+        border-radius: 10px;
+        box-shadow: 10px 10px 8px #b8b7b7;
+    }
+
 
 }
