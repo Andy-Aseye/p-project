@@ -299,5 +299,14 @@
         box-shadow: 10px 10px 8px #b8b7b7;
     }
 
+    .e-container p{
+        display: block;
+        width: 25vw;
+        font-size: 1.6vw;
+        font-weight: 500;
+        line-height: 140%;
+        margin-top: -14vh;
+        font-family: 'Lora', serif;
+    }
 
 }
