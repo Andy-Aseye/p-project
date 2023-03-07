@@ -337,4 +337,14 @@
 
 @media only screen and (min-width: 769px) and (max-width: 800px) {
 
+    .e-container p{
+        display: block;
+        width: 25vw;
+        font-size: 1.9vw;
+        font-weight: 500;
+        line-height: 140%;
+        margin-top: -14vh;
+        font-family: 'Lora', serif;
+    }
+
 }
