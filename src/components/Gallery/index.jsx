@@ -8,6 +8,9 @@ import Pepe from './assets/pepe.png';
 import PepeM from './assets/pepe-mobile.png';
 import FitnutsM from './assets/fitnuts-mobile.png';
 import Aigenix from './assets/AIgenix.png';
+import Starbucks from './assets/Starbucks_wallpaper.png';
+import Ziprecruiter from './assets/ziprecruiter-img.png';
+import Cryptosat from './assets/Cryptosat_img.png';
 import cn from "classnames";
 
 import "./style.scss";
@@ -20,16 +23,36 @@ import "./style.scss";
 
 
 const images = [
+  // {
+  //   src: Fitnuts,
+  //   title: "Fitnuts",
+  //   subtitle: "Fitness and Health",
+  //   category: "Web-App",
+  //   role: "Frontend Development",
+  //   modalImg: FitnutsM,
+  //   overview: "Fitnuts is a health and lifestyle guide application with modern abilities such as setting up excercise routine and diets for users to meet wellness targets.",
+  //   stack: ["Angualar", "Css", "Material UI", "Bootstrap"],
+  //   demo: "Available for live demo"
+  // },
   {
-    src: Fitnuts,
-    title: "Fitnuts",
-    subtitle: "Fitness and Health",
-    category: "Web-App",
-    role: "Frontend Development",
-    modalImg: FitnutsM,
-    overview: "Fitnuts is a health and lifestyle guide application with modern abilities such as setting up excercise routine and diets for users to meet wellness targets.",
-    stack: ["Angualar", "Css", "Material UI", "Bootstrap"],
-    demo: "Available for live demo"
+    src: Starbucks,
+    title: "Starbucks",
+    subtitle: "Ecommerce",
+    category: "Ecommerce and Restaurant",
+    role: "Frontend and Backend",
+    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
+    stack: ["React.JS", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+    demo: "https://starbucks-cd939.web.app/"
+  },
+  {
+    src: Ziprecruiter,
+    title: "Ziprecruiter",
+    subtitle: "Job platform",
+    category: "Ecommerce and Restaurant",
+    role: "Frontend and Backend",
+    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
+    stack: ["React.JS", "Typescript", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+    demo: "https://ziprecruiter.web.app/"
   },
   {
     src: Aigenix,
@@ -40,6 +63,16 @@ const images = [
     overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
     stack: ["React.JS", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
     demo: "https://aigenix.netlify.app/"
+  },
+  {
+    src: Cryptosat,
+    title: "Cryptosat",
+    subtitle: "Satellite",
+    category: "Web 3 and Crypto",
+    role: "Frontend and Backend",
+    overview: "Cryptosat is a web 3 initiative implementing satellites to unlock the potential of crypto.",
+    stack: ["React.JS", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+    demo: "https://www.cryptosat.io/"
   },
   {
     src: Adrenalin,
