@@ -44,26 +44,17 @@ const images = [
     stack: ["React.JS", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
     demo: "https://starbucks-cd939.web.app/"
   },
-  {
-    src: Ziprecruiter,
-    title: "Ziprecruiter",
-    subtitle: "Job platform",
-    category: "Ecommerce and Restaurant",
-    role: "Frontend and Backend",
-    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
-    stack: ["React.JS", "Typescript", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
-    demo: "https://ziprecruiter.web.app/"
-  },
-  {
-    src: Aigenix,
-    title: "AIgenix",
-    subtitle: "AI generator",
-    category: "Arts and creativity",
-    role: "Frontend and Backend",
-    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
-    stack: ["React.JS", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
-    demo: "https://aigenix.netlify.app/"
-  },
+ 
+  // {
+  //   src: Aigenix,
+  //   title: "AIgenix",
+  //   subtitle: "AI generator",
+  //   category: "Arts and creativity",
+  //   role: "Frontend and Backend",
+  //   overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
+  //   stack: ["React.JS", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+  //   demo: "https://aigenix.netlify.app/"
+  // },
   {
     src: Cryptosat,
     title: "Cryptosat",
@@ -75,16 +66,27 @@ const images = [
     demo: "https://www.cryptosat.io/"
   },
   {
-    src: Adrenalin,
-    title: "Adrenaline Sports",
-    subtitle: "Sports Management",
-    category: "Management platform",
-    role: "Frontend Development",
-    modalImg: "",
-    overview: "Adrenaline sports is a sports management app to guide team planning",
-    stack: ["Bootstrap", "Html", "PHP"],
-    demo: "Available for live demo"
+    src: Ziprecruiter,
+    title: "Ziprecruiter",
+    subtitle: "Job platform",
+    category: "Ecommerce and Restaurant",
+    role: "Frontend and Backend",
+    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
+    stack: ["React.JS", "Typescript", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+    demo: "https://ziprecruiter.web.app/"
   },
+
+  // {
+  //   src: Adrenalin,
+  //   title: "Adrenaline Sports",
+  //   subtitle: "Sports Management",
+  //   category: "Management platform",
+  //   role: "Frontend Development",
+  //   modalImg: "",
+  //   overview: "Adrenaline sports is a sports management app to guide team planning",
+  //   stack: ["Bootstrap", "Html", "PHP"],
+  //   demo: "Available for live demo"
+  // },
   {
     src: Pepe,
     title: "Pepe's Game",
@@ -94,7 +96,7 @@ const images = [
     modalImg: PepeM,
     overview: "Pepe's Game is an online casino game with modern functionalities and capabilities",
     stack: ["React.JS", "Greensock 3", "Css", "Bootstrap"],
-    demo: "Available for live demo"
+    demo: "https://www.pepesgame.com/"
   },
 ];
 function GalleryItem({
