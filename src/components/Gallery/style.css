@@ -50,6 +50,9 @@
   transform: translateX(-20%);
   color: #dbd8d6;
   color: white;
+  background-color: black;
+  padding: 1vw;
+  border-radius: 6px;
 }
 .gallery .gallery-item-info .gallery-info-title {
   line-height: 6vw;

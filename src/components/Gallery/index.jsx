@@ -40,8 +40,8 @@ const images = [
     subtitle: "Ecommerce",
     category: "Ecommerce and Restaurant",
     role: "Frontend and Backend",
-    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
-    stack: ["React.JS", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+    overview: "This is a remake of the Starbucks official website with the implementation of concept UI and designs.",
+    stack: ["React.JS", "Redux", "MongoDB", "Node.js", "Express.js", "Auth0", "CSS"],
     demo: "https://starbucks-cd939.web.app/"
   },
  
@@ -62,17 +62,17 @@ const images = [
     category: "Web 3 and Crypto",
     role: "Frontend and Backend",
     overview: "Cryptosat is a web 3 initiative implementing satellites to unlock the potential of crypto.",
-    stack: ["React.JS", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+    stack: ["React.JS", "Redux", "Satellite.js", "Node.js", "Express.js", "Solidity", "CSS"],
     demo: "https://www.cryptosat.io/"
   },
   {
     src: Ziprecruiter,
     title: "Ziprecruiter",
     subtitle: "Job platform",
-    category: "Ecommerce and Restaurant",
+    category: "Ecommerce and Job",
     role: "Frontend and Backend",
-    overview: "AIgenix is an image genreation webapplication with AI powered techology and sharing feature.",
-    stack: ["React.JS", "Typescript", "Redux", "Tailwind.CSS", "Node.js", "Express.js", "OpenAI", "Auth0", "CSS"],
+    overview: "This is a replica of the original Ziprecruiter website. It features job posting, application, recruitment and other job platform features.",
+    stack: ["React.JS", "Typescript", "Redux", "Docker", "Node.js", "Express.js", "MongoDB", "CSS"],
     demo: "https://ziprecruiter.web.app/"
   },
 
@@ -95,7 +95,7 @@ const images = [
     role: "Frontend Development",
     modalImg: PepeM,
     overview: "Pepe's Game is an online casino game with modern functionalities and capabilities",
-    stack: ["React.JS", "Greensock 3", "Css", "Bootstrap"],
+    stack: ["React.JS", "Greensock 3", "Solidity", "Css", "Bootstrap"],
     demo: "https://www.pepesgame.com/"
   },
 ];
