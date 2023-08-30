@@ -53,7 +53,7 @@ export default function Profile() {
             <h1>Hey, Andy here. Hope you had a <br />great time going through my portfolio.</h1>
             {/* <h1>Let's talk about how we can elevate your brand or business to the next level</h1> */}
             <div className="text-area-p">
-            <p>I am a creative frontend developer with the drive to build responsive interactive websites.
+            <p>I am an experienced fullstack developer with the drive to build advance and innovative software.
             I have experience with working with some of the most talented developers and designers. </p>
             <p>Below is a list of my skills and tools I work with. Feel free to leave a message regarding any idea, project, or for a quick chat. Hoping to stay in touch with you. Have a great day.</p>
             </div>
@@ -62,7 +62,12 @@ export default function Profile() {
             <span><img src={img8} className="m-img img-f" alt="html-i"/>HTML</span>
             <span><img src={img2} className="m-img img-f" alt="css-i"/>CSS</span>
             <span><img src={img10} className="m-img img-f" alt="react-i"/>React</span>
+            <span><img src={img1} className="m-img img-f" alt="bootstrap-i"/>Python</span>
+            <span><img src={img1} className="m-img img-f" alt="bootstrap-i"/>Solidity</span>
+            <span><img src={img1} className="m-img img-f" alt="bootstrap-i"/>MySQL</span>
             <span><img src={img1} className="m-img img-f" alt="bootstrap-i"/>Bootstrap</span>
+            <span><img src={img1} className="m-img img-f" alt="bootstrap-i"/>Typescript</span>
+            <span><img src={img1} className="m-img img-f" alt="bootstrap-i"/>Tailwind</span>
             <span><img src={img7} className="m-img img-f"  alt="node-i"/>Node.js</span>
             <span><img src={img3} className="m-img img-f" alt="express-i"/>Express.js</span>
             <span><img src={img6} className="m-img img-f"  alt="mongo-i"/>Mongodb</span>

@@ -62,7 +62,7 @@ export default function PreloaderPage () {
 return (
     <div id="preloader">
         <div className="row-pair" id="top-row">
-            <div className="col text" id="left" style={{marginLeft: "3vw"}}>Portfolio</div>
+            <div className="col text" id="left" style={{marginLeft: "3vw"}}>Fullstack</div>
             <div className="col text" id="right" style={{marginRight: "3vw"}}>Developer</div>
         </div>
         <div className="row">

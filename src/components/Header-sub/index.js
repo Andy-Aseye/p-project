@@ -60,7 +60,7 @@ export default function Header() {
             <div className="h-navbar">
                 <ul>
                     <li>Andy Sedzifa</li>
-                    <li>Creative/ Frontend Developer</li>
+                    <li>Creative/ Fullstack Developer</li>
                     <li>Based in Accra, Ghana</li>
                 </ul>
             </div>
@@ -69,7 +69,7 @@ export default function Header() {
             </div>
             <div className="title-r" id="second-r">
                 <div className="title" id="title-design">
-                    <h1>Frontend</h1>
+                    <h1>Fullstack</h1>
                 </div>
                 <div className="title" id="normal-title">
                     <h1 className="normal-title">Developer</h1>
